@@ -1,0 +1,24 @@
+{
+  "name": "backendnode",
+  "version": "1.0.0",
+  "description": "Proyecto de Backend para Angular",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Roman y Jose Salazar",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
